@@ -6,7 +6,7 @@ Working Environment Fast Recovery
 ## OSX
 + 终端: [iterm2](https://www.iterm2.com/downloads.html "Download iterm2")
 + 命令提示符和环境变量: 修改配置文件 - `<user>/.bash_profile`
-+ vimrc：设置提示颜色，显示行号等
++ vimrc: 设置提示颜色，显示行号等 
 + Finder: [Reference this article](http://blog.csdn.net/joeblackzqq/article/details/38906697 "Config your finder").
 ------
 
