@@ -1,5 +1,5 @@
 # WEFR
-Working Environment Fast Recovery    
+Working Environment Fast Recovery
 有用的配置文件、系统配置方案，常用软件的设置方法和设置文件.
 ------
 
@@ -24,7 +24,7 @@ windows/AutohotKey.ahk
 + batch
 常用的windows的脚本，包括ip动静态设置、wifi热点开关、设置PATH
 + links
-常用的软件的快捷方式，需要添加进PATH（set path=%path%;c:\software\links\）
+常用的软件的快捷方式，需要添加进PATH（set path=%path%ƒ;c:\software\links\）
 + tools
 包含一些绿色工具，可以直接从百度云下载后，放到这个路径即可
 
@@ -34,13 +34,13 @@ windows/AutohotKey.ahk
 
 ## Cross-platform software
 ###1. Sublime Text 3
-####a. 安装Package Control    
+####a. 安装Package Control
 ```
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
-####b. 安装必要的插件    
-插件：ConvertToUTF8; FileHeader; Markdown Editing、OmniMarkupPreviewer    
+####b. 安装必要的插件
+插件：ConvertToUTF8; FileHeader; Markdown Editing、OmniMarkupPreviewer
 主题：Material Theme(可以直接ctrl+shift+p进行安装)
 
 ####c. 用户配置文件
